@@ -1,0 +1,18 @@
+/* ------ COMPONENTS : FOOTER ------ */
+
+.footer {
+  text-align: center;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $padding-y--main $padding-x--main;
+
+  i {
+    color: $gray;
+  }
+
+  .footer-copyright {
+    color: $gray;
+  }
+}

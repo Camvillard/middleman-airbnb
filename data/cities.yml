@@ -1,0 +1,6 @@
+- name: 'Montreal'
+  address: 'Mile End'
+- name: 'Paris'
+  address: 'Lamark'
+- name: 'Biarritz'
+  address: 'Saint-Charles'
