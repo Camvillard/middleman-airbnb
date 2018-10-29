@@ -1,6 +1,20 @@
 - name: 'Sébastien Saunier'
   github_nickname: 'ssaunier'
+  city: "Bordeaux"
+  address: "super cute place in Les Chartrons"
 - name: 'Boris Paillard'
   github_nickname: 'Papillard'
+  city: "Biarritz"
+  address: "super cute place near la Côte des Basques <3"
+- name: 'François Belle'
+  github_nickname: 'bellef'
+  city: "Bordeaux"
+  address: "super cute place in Les Chartrons"
 - name: 'Camille Villard'
   github_nickname: 'camvillard'
+  city: "Bordeaux"
+  address: "super cute place in Les Chartrons"
+- name: 'Alex Schmitz'
+  github_nickname: 'amrschmitz'
+  city: "Paris"
+  address: "great flat in Lamark, best arrondissement in Paris"

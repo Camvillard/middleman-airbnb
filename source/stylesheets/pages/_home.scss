@@ -1,22 +1,13 @@
 #home {
   color: white;
-  text-align: center;
-  h3 {
-    color: $dark-gray;
-  }
-  p {
-    margin-top: 1.5em;
-  }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: $font-size-base;
-  }
-  .container {
-    margin-bottom: 0px;
-  }
+
 }
 
 #flats {
   margin-bottom: 40px;
+
+  h2 {
+    text-align: center;
+    color: $dark-gray;
+  }
 }

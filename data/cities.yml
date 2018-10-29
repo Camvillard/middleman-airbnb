@@ -1,6 +1,10 @@
-- name: 'Montreal'
-  address: 'Mile End'
-- name: 'Paris'
-  address: 'Lamark'
-- name: 'Biarritz'
-  address: 'Saint-Charles'
+- name: "Bordeaux"
+  description: "super cute appartement in the Chartrons"
+- name: "Biarritz"
+  description: "nice place close to the beach."
+- name: "Paris"
+  description: "great flat in Lamark, best arrondissement in Paris"
+- name: "Paris"
+  description: "great flat in Lamark, best arrondissement in Paris"
+- name: "Paris"
+  description: "great flat in Lamark, best arrondissement in Paris"

@@ -27,6 +27,10 @@
     letter-spacing: -0.5px;
     font-size: 15px;
   }
+  p.text-comment {
+    color: $dark-gray;
+    font-size: $font-size-base * 0.8;
+  }
   .fa-heart {
     color: #D23333;
   }

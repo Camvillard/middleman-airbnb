@@ -1,0 +1,16 @@
+<div class="col-xs-12 col-sm-4">
+  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= "https://kitt.lewagon.com/placeholder/cities/#{city.downcase}" %>)";>
+    <div class="card-category">
+      <h3> <%= city %> </h3>
+    </div>
+    <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{github_nickname}", class: "card-user img-circle" %>
+    <div class="card-description">
+      <h3><%= name %>'s flat</h3>
+      <p> <%= description %> </p>
+      <p class="rating"><i class="fas fa-star rating-active"></i><i class="fas fa-star rating-active"></i><i class="fas fa-star rating-active"></i><i class="fas fa-star rating-active"></i><i class="fas fa-star"></i></p>
+    </div>
+    <%= link_to "", "/flats/#{github_nickname}", class: "card-link" %>
+  </div>
+</div>
+
+
