@@ -5,13 +5,13 @@
       <h2>Recent Flats</h2>
         <!-- insert <div class="card"> -->
 
-      <% data.users.each do |user| %>
+      <% data.flats.each do |owner, flat| %>
 
         <%= partial "components/card", locals: {
-          name: user.name,
-          description: user.address,
-          city: user.city,
-          github_nickname: user.github_nickname,
+          name: owner,
+          description: flat.description,
+          city: flat.city_name,
+          city_slug: flat.city_slug
         } %>
 
       <% end %>

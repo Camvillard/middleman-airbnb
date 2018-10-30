@@ -1,0 +1,42 @@
+ssaunier:
+  name: "Sebastien's home"
+  description: "Charming room in Montmartre"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: false
+  rating: 4
+papillard:
+  name: "Boris' home"
+  description: Nice place in Bordeaux
+  city_name: "Bordeaux, France"
+  city_slug: "bordeaux"
+  wifi: true
+  rating: 3
+bellef:
+  name: "François's cool place"
+  description: "Cosy studio"
+  city_name: "Biarritz, France"
+  city_slug: "biarritz"
+  wifi: true
+  rating: 5
+camvillard:
+  name: "Camille's home"
+  description: Nice flat in Piccadilly
+  city_name: "Biarritz, France"
+  city_slug: "biarritz"
+  wifi: true
+  rating: 5
+amrschmitz:
+  name: "Alex's flat"
+  description: Nice flat in Mile End
+  city_name: "Montreal, QC"
+  city_slug: "montreal"
+  wifi: true
+  rating: 4
+
+
+
+
+
+
+

@@ -1,18 +1,23 @@
 /* ------ COMPONENTS : FOOTER ------ */
 
 .footer {
-  text-align: center;
   background: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: $padding-y--main $padding-x--main;
 
-  i {
-    color: $gray;
-  }
-
   .footer-copyright {
     color: $gray;
   }
 }
+
+.footer-links > a {
+  color: $tumbleweed;
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 1;
+  }
+
+ }

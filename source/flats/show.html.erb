@@ -1,0 +1,53 @@
+---
+title: Airbnb - Flat
+---
+
+<% flat = data.flats[owner] %>
+
+
+<div id="flats">
+
+  <div class="wrapper">
+    <%= image_tag "https://kitt.lewagon.com/placeholder/cities/#{flat.city_slug}" %>
+  </div>
+
+
+  <div class="container">
+
+    <div class="flat">
+
+      <div class="flat-owner">
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle" %>
+        <h4><%= owner %></h4>
+      </div>
+
+      <div class="flat-description">
+        <h5><%= flat.description %></h5>
+        <p><%= flat.city_name %></p>
+      </div>
+
+      <ul class="list-inline">
+        <% flat.rating.times do %>
+          <li><i class="fas fa-star rating-active"></i></li>
+        <% end %>
+
+        <% 6 - flat.rating.times do %>
+        <li><i class="fas fa-star rating-active"></i></li>
+        <% end %>
+      </ul>
+
+    </div> <!-- end of flat -->
+
+    <div class="flat-reservation">
+      <h3>book this flat</h3>
+      <form action="">
+        <div class="form-inline">
+          <input for="checkin" id="checkin" placeholder="checkin"></input>
+        <input for="checkout" id="checkout" placeholder="checkout"></input>
+        </div>
+      </form>
+    </div>
+
+  </div> <!-- end of container -->
+
+</div> <!-- end of #flats -->
